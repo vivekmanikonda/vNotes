@@ -1,0 +1,22 @@
+.fullPage {
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.addNote {
+    padding: 5px;
+    color: white;
+    font-size: larger;
+    font-family: Helvetica;
+    background-color: rgb(137, 189, 234);
+    border: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.addNote:hover{
+    color: black;
+}
