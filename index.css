@@ -9,7 +9,8 @@
 
 .container {
     width: 100%;
-    height: 100vh;
+    height: auto;
+    min-height: 100vh;
     background-color: #f9f9f9;
     margin: 10px;
     padding: 20px;
@@ -49,17 +50,18 @@
     border-style: ridge;
     border-width: 1px;
     padding: 10px;
+    margin-bottom: 20px;
 }
 
-.lucide-trash-2 {
+.notes img {
     display: flex;
     align-items: center;
     float: right;
     cursor: pointer;
-    color: red;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    font-size: larger;
+    border-width: 0;
 
-}
-
-.lucide-trash-2:hover {
-    color: rgb(0, 0, 0);
 }
